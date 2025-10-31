@@ -30,6 +30,23 @@ fun main() {
 //      println(mixedArraylist[2])
 
 // kotlin collection overview task below ************************
+//val numbers : List<String> = listOf("one","two","three")
+//println("Number of elements: ${numbers.size}")
+//println("the third element is : ${numbers.get(2)}")
+//println("the third number is ${numbers[2]}")
+//println("Index of element \"two\" ${numbers.indexOf("two")} ")
+//}
+
+// Create a Dictionary app using mapOf() function where user will
+// type a word and your program should return the meaning of that word.
+//    val dictionary = mapOf(
+//        "apple" to "red juicy fruit",
+//        "walk" to "to move forward",
+//        "water" to "liquid that gives life; h20")
+//    println("enter the word")
+//    val input: String = readln().lowercase()
+//    println("the meaning of $input is ${dictionary[input]} ")
+//
+//}
 
 
-}
