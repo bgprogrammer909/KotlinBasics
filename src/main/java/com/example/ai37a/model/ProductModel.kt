@@ -1,9 +1,16 @@
 package com.example.ai37a.model
-
 data class ProductModel(
-    val productName: String="",
-    val productId:String="",
-    val productPrice: Float=0f,
-    val quantity: Int=0,
-    val productImage : String="",
-)
+    var productId: String = "",
+    var name: String = "",
+    var desc: String = "",
+    var price: Double = 0.0,
+) {
+    fun toMap() : Map<String,Any?>{
+        return mapOf(
+            "productId" to productId,
+            "name" to name,
+            "desc" to desc,
+            "price" to price
+        )
+    }
+}
