@@ -46,6 +46,7 @@ class DashboardActivity : ComponentActivity() {
 @Composable
 fun Spotify() {
     Scaffold {paddingValues->
+
         Column(modifier= Modifier
             .padding(paddingValues)
             .fillMaxSize()
